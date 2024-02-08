@@ -2,6 +2,7 @@
 // http://localhost:3000/test
 
 import { Button } from "@/components/ui/button";
+import { Footer } from "./_components/Footer";
 import { Heading } from "./_components/Heading";
 import { Heroes } from "./_components/Heroes";
 
@@ -16,6 +17,7 @@ const MarketingPage = () => {
         <Heading />
         <Heroes />
       </div>
+      <Footer />
     </div>
   );
 };
