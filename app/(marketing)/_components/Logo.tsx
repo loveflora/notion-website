@@ -5,7 +5,8 @@ import { cn } from "@/lib/utils";
 
 export const Logo = () => {
   return (
-    <div className="flex items-center w-full p-6 pg-background z-50"></div>
-    <Image/>
+    <div className="hidden md:flex items-center gap-x-2">
+      <Image src="/logo.svg" height="40" width="40" alt="Logo" />
+    </div>
   );
 };
