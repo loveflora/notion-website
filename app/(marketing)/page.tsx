@@ -2,9 +2,9 @@
 // http://localhost:3000/test
 
 import { Button } from "@/components/ui/button";
-import { Footer } from "./_components/Footer";
-import { Heading } from "./_components/Heading";
-import { Heroes } from "./_components/Heroes";
+import { Footer } from "./_components/footer";
+import { Heading } from "./_components/heading";
+import { Heroes } from "./_components/heroes";
 
 // 라우팅 안되게 하고 싶으면, _ 붙이면 됨
 // _ : 안에 폴더 전부 라우팅 안됨 (라우팅 X, 컴포넌트로 사용 O)
