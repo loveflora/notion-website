@@ -3,7 +3,7 @@
 import { ModeToggle } from "@/components/mode-toggle";
 import { useScrollTop } from "@/hooks/use-scroll-top";
 import { cn } from "@/lib/utils";
-import { Logo } from "./Logo";
+import { Logo } from "./logo";
 
 export const Nav = () => {
   const scrolled = useScrollTop();
