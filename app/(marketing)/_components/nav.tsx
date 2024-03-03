@@ -5,7 +5,7 @@ import { useScrollTop } from "@/hooks/use-scroll-top";
 import { cn } from "@/lib/utils";
 import { Logo } from "./logo";
 
-export const Nav = () => {
+export const Navbar = () => {
   const scrolled = useScrollTop();
 
   return (
